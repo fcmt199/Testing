@@ -3,10 +3,10 @@ import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
 
 describe('Home', () => {
-    it('should have Docs text', () => {
+    it('should have Flavia Celeste Moscoso Tolavi text', () => {
         render(<Home />) // ARRANGE 
 
-        const myElem = screen.getByText('Docs') // ACT 
+        const myElem = screen.getByText('Flavia Celeste Moscoso Tolavi') // ACT 
 
         expect(myElem).toBeInTheDocument() // ASSERT
     })
